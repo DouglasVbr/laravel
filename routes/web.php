@@ -8,4 +8,4 @@ Route::get('/', function () {
 });
 
 
-Route::get('/series', [SeriesController::class, 'listarSeries']); 
+Route::get('/series', [SeriesController::class, 'index']);
